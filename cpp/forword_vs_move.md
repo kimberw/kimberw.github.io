@@ -1,7 +1,5 @@
 # std::forward VS std::move
 
-> https://zhuanlan.zhihu.com/p/55856487
-
 ## 简述
 
 1. 问题: 临时变量copy开销太大
@@ -26,3 +24,5 @@ move 解决 T && （rvalue reference）右值引用参数，避免copy
 - forward常用于template函数中, 使用的时候必须要多带一个template参数T: forward<T>, 代码略复杂;
 - 明确只需要move的情况而用forward, 代码意图不清晰, 其他人看着理解起来比较费劲.
 - 更技术上来说, 他们都可以被static_cast替代. 为什么不用static_cast呢? 也就是为了读着方便易懂.
+
+> https://zhuanlan.zhihu.com/p/55856487
