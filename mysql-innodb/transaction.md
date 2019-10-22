@@ -171,3 +171,4 @@ InnoDB默认级别是REPEATABLE READ。采用 Next-Key Lock 来避免幻读达�
 - statement 格式记录的是 master 上产生的sql 语句，因此 master 执行顺序 和statement 格式中记录顺序可能出现不一致。 可以使用row 格式的二进制日志文件。
 
 ### 分布式事务
+
