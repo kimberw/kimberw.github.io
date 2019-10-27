@@ -3,7 +3,7 @@ kimber's learning note
 
 ## [InnoDB](./mysql-innodb/index.html)
 
-## Redis
+## [Redis](./redis/index.html)
 
 ## [Cpp](./cpp/index.html)
 

@@ -7,5 +7,6 @@
 3. [索引](./indexs.html)
 4. [锁](./lock.html)
 5. [事务](./transaction.html)
-6. [备份](./backup.html)
+6. [表](./table.html)
+7. [备份](./backup.html)
 
